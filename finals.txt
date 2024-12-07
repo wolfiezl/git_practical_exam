@@ -1,0 +1,16 @@
+  638  git checkout -b feature-bio
+  639  git init
+  640  git add bio.txt
+  641  git commit -m "Added feature-bio"
+  642  git checkout main\n
+  643  git checkout -b main
+  644  git merge feature-bio\n
+  645  git status\n
+  646  git log --oneline\n
+  647  git remote -v\n
+  648  git pull origin main
+  649  git remote add origin https://github.com/wolfiezl/git_practical_exam.git
+  650  git pull origin main
+  651  git status\n
+  652  git config pull.rebase false
+  653  doskey /history > finals.txt
